@@ -1,4 +1,5 @@
 module.exports = {
+  ignorePatterns: [".eslintrc.js"],
   extends: ["airbnb", "airbnb-typescript"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -23,12 +24,12 @@ module.exports = {
     setInterval: true,
     clearInterval: true,
   },
-  parserOptions: {
-    project: "./tsconfig.eslint.json",
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
+  // parserOptions: {
+  //   project: "./tsconfig.eslint.json",
+  //   ecmaFeatures: {
+  //     jsx: true,
+  //   },
+  // },
   plugins: ["@typescript-eslint"],
   root: true,
   rules: {
