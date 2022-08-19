@@ -25,3 +25,17 @@ a {
     background: black;
   }
 }
+
+.scores-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.scores-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
