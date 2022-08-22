@@ -11,9 +11,6 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <iframe src="https://video.laacgolf.com/index.html?id=laac&lang=en" className="video" scrolling="no">
-          <p>Your browser does not support iframes.</p>
-        </iframe>
       </main>
     </div >
   )

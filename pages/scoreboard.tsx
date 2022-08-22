@@ -1,12 +1,10 @@
-import Link from "next/link"
+import Scoreboard from '../components/Scoreboard/Scoreboard'
 
-const scoreboard = () => {
+const ScoreboardPage = () => {
 
     return (
-        <div id="scoreboard">
-            <Link href={"/"}>Home</Link>
-        </div>
+        <Scoreboard />
     )
 }
 
-export default scoreboard
+export default ScoreboardPage
