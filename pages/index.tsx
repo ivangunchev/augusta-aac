@@ -11,6 +11,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <div className='video-container'>
+          <iframe className="video" src=" https://players.brightcove.net/1709815512001/default_default/index.html?videoId=6280617571001" allowFullScreen={true} allow="encrypted-media">
+          </iframe>
+        </div>
       </main>
     </div >
   )
